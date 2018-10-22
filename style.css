@@ -96,6 +96,11 @@ body
 	height: 100px;
 	margin: 20px;	
 	background-color: #FF5D00;
+	background-color: #FF5D00;
+	border-bottom-right-radius : 5px;
+	border-bottom-left-radius : 5px;
+	border-top-left-radius : 5px;
+	border-top-right-radius : 5px;
 	
 }
 
