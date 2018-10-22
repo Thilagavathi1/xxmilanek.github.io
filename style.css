@@ -1,140 +1,131 @@
-body
-{
+body {
 	background-color: #303030;
-	color: #ffffff;	
+	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 }
-#container
-{
+
+#container {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	
-}
-.rectangle
-{
-	width: 960px;
-	margin: 20px;
-	
-	
+
 }
 
-.square
-{
+.rectangle {
+	width: 960px;
+	margin: 20px;
+
+
+}
+
+.square {
 	width: 50%;
 	height: 420px;
-	float:left ;
+	float: left;
 	font-size: 20px;
-	
-	
-	
+
+
+
 }
-#logo
-{
+
+#logo {
 	float: left;
 	font-size: 70px;
 	width: 600px;
 	font-family: 'Josefin Sans', sans-serif;
-	
-	
+
+
 }
-#zegar
-{
+
+#zegar {
 	float: left;
 	font-size: 70px;
 	font-family: 'Josefin Sans', sans-serif;
 }
-.sq1
-{
+
+.sq1 {
 	width: 210px;
 	height: 100px;
 	margin: 20px;
 	float: left;
 	background-color: #375EFF;
 	color: #ffffff;
-	border-bottom-right-radius : 20px;
-	
+	border-bottom-right-radius: 20px;
+
 }
-.sq1:hover
-{
+
+.sq1:hover {
 	background-color: #264DDD;
 }
-#sq2
-{
+
+#sq2 {
 	width: 210px;
 	height: 100px;
 	margin: 20px;
 	float: left;
 	background-color: #5A5A5A;
 	color: #ffffff;
-	border-bottom-right-radius : 20px;
-	
+	border-bottom-right-radius: 20px;
+
 }
-#sq2:hover
-{
+
+#sq2:hover {
 	background-color: #4A4A4A;
 }
-#sq3
-{
+
+#sq3 {
 	width: 210px;
 	height: 100px;
 	margin: 20px;
 	float: left;
 	background-color: #13B400;
 	color: #ffffff;
-	border-bottom-right-radius : 20px;
-	
+	border-bottom-right-radius: 20px;
+
 }
-#sq3:hover
-{
+
+#sq3:hover {
 	background-color: #02A300;
 }
-#sq4
-{
+
+#sq4 {
 	width: 460px;
 	height: 100px;
-	margin: 20px;	
+	margin: 20px;
 	background-color: #FF5D00;
-	background-color: #FF5D00;
-	border-bottom-right-radius : 5px;
-	border-bottom-left-radius : 5px;
-	border-top-left-radius : 5px;
-	border-top-right-radius : 5px;
-	
+
 }
 
 
-#sq5
-{
+#sq5 {
 	width: 460px;
 	height: 220px;
 	margin: 20px;
-    float: left;	
+	float: left;
 	background-color: #5A5A5A;
 	text-align: justify;
 	font-family: 'Josefin Sans', sans-serif;
 	padding: 10px;
-		
+
 }
 
-.yt
-{
+.yt {
 	width: 85px;
 	height: 100px;
 	margin: 20px;
-	background-color: #FF1E1E;	
+	background-color: #FF1E1E;
 	float: left;
 	text-align: center;
 	color: #ffffff;
-	
+
 }
-.yt:hover
-{
+
+.yt:hover {
 	background-color: #EE0D0D;
 }
-.fb
-{
+
+.fb {
 	width: 85px;
 	height: 100px;
 	margin: 20px;
@@ -143,26 +134,26 @@ body
 	text-align: center;
 	color: #ffffff;
 }
-.fb:hover
-{
+
+.fb:hover {
 	background-color: #184CCD;
 }
-.git
-{
+
+.git {
 	width: 85px;
-	height: 100px;	
-	margin: 20px;	
+	height: 100px;
+	margin: 20px;
 	background-color: #262626;
 	float: left;
 	color: #ffffff;
-	
+
 }
-.git:hover
-{
+
+.git:hover {
 	background-color: #151515;
 }
-.tw
-{
+
+.tw {
 	width: 85px;
 	height: 100px;
 	margin: 20px;
@@ -170,12 +161,7 @@ body
 	float: left;
 	color: #ffffff;
 }
-.tw:hover
-{
+
+.tw:hover {
 	background-color: #2674EA;
 }
-
-
-
-
-
