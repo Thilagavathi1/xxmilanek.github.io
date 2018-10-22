@@ -1,1 +1,2 @@
-strona
+Moja strona
+
