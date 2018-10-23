@@ -9,14 +9,11 @@ body {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 .rectangle {
 	width: 960px;
 	margin: 20px;
-
-
 }
 
 .square {
@@ -24,9 +21,6 @@ body {
 	height: 420px;
 	float: left;
 	font-size: 20px;
-
-
-
 }
 
 #logo {
@@ -34,8 +28,6 @@ body {
 	font-size: 70px;
 	width: 600px;
 	font-family: 'Josefin Sans', sans-serif;
-
-
 }
 
 #zegar {
@@ -52,7 +44,6 @@ body {
 	background-color: #375EFF;
 	color: #ffffff;
 	border-bottom-right-radius: 20px;
-
 }
 
 .sq1:hover {
@@ -67,7 +58,6 @@ body {
 	background-color: #5A5A5A;
 	color: #ffffff;
 	border-bottom-right-radius: 20px;
-
 }
 
 #sq2:hover {
@@ -82,7 +72,6 @@ body {
 	background-color: #13B400;
 	color: #ffffff;
 	border-bottom-right-radius: 20px;
-
 }
 
 #sq3:hover {
@@ -94,7 +83,6 @@ body {
 	height: 100px;
 	margin: 20px;
 	background-color: #FF5D00;
-
 }
 
 
@@ -107,7 +95,6 @@ body {
 	text-align: justify;
 	font-family: 'Josefin Sans', sans-serif;
 	padding: 10px;
-
 }
 
 .yt {
@@ -118,7 +105,6 @@ body {
 	float: left;
 	text-align: center;
 	color: #ffffff;
-
 }
 
 .yt:hover {
@@ -146,7 +132,6 @@ body {
 	background-color: #262626;
 	float: left;
 	color: #ffffff;
-
 }
 
 .git:hover {
