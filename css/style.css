@@ -2,151 +2,140 @@ body {
 	background-color: #303030;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
 }
-
-#container {
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+.top{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	flex-wrap: nowrap;
 }
-
-.rectangle {
-	width: 960px;
-	margin: 20px;
+.top div h2{
+    padding-right: 30vw;
+    padding-left: 5vw;
+    font-size: 3rem;
 }
-
-.square {
-	width: 50%;
-	height: 420px;
-	float: left;
-	font-size: 20px;
+#zegar{ 
+    position: absolute;
+    right: 5%;
+    font-size: 2rem;
 }
-
-#logo {
-	float: left;
-	font-size: 70px;
-	width: 600px;
-	font-family: 'Josefin Sans', sans-serif;
+hr{
+    max-width: 90vw;
+    margin-top: -20px;
 }
-
-#zegar {
-	float: left;
-	font-size: 70px;
-	font-family: 'Josefin Sans', sans-serif;
+.square{
+    border: 2px solid #ffffff;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
 }
-
-.sq1 {
-	width: 210px;
-	height: 100px;
-	margin: 20px;
-	float: left;
-	background-color: #375EFF;
-	color: #ffffff;
-	border-bottom-right-radius: 20px;
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10vh;
 }
-
-.sq1:hover {
-	background-color: #264DDD;
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 20vw;
+    flex-wrap: wrap;
+    align-items: center;
 }
-
-#sq2 {
-	width: 210px;
-	height: 100px;
-	margin: 20px;
-	float: left;
-	background-color: #5A5A5A;
-	color: #ffffff;
-	border-bottom-right-radius: 20px;
+.box1 div{
+    margin: 10px;
 }
-
-#sq2:hover {
-	background-color: #4A4A4A;
+.box2 h2{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 50px;
+    width: 35vw;
+    height: 240px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    line-height: 3rem;
 }
-
-#sq3 {
-	width: 210px;
-	height: 100px;
-	margin: 20px;
-	float: left;
-	background-color: #13B400;
-	color: #ffffff;
-	border-bottom-right-radius: 20px;
+#sq6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    max-width: 40vw;
+    margin-left: 30vw;
 }
-
-#sq3:hover {
-	background-color: #02A300;
-}
-
-#sq4 {
-	width: 460px;
-	height: 100px;
-	margin: 20px;
-	background-color: #FF5D00;
+.end{
+    font-size: 1.3rem;
+    margin-top: 25vh;
 }
 
 
-#sq5 {
-	width: 460px;
-	height: 220px;
-	margin: 20px;
-	float: left;
-	background-color: #5A5A5A;
-	text-align: justify;
-	font-family: 'Josefin Sans', sans-serif;
-	padding: 10px;
-}
-
-.yt {
-	width: 85px;
-	height: 100px;
-	margin: 20px;
-	background-color: #FF1E1E;
-	float: left;
-	text-align: center;
-	color: #ffffff;
-}
-
-.yt:hover {
-	background-color: #EE0D0D;
-}
-
-.fb {
-	width: 85px;
-	height: 100px;
-	margin: 20px;
-	background-color: #295DDE;
-	float: left;
-	text-align: center;
-	color: #ffffff;
-}
-
-.fb:hover {
-	background-color: #184CCD;
-}
-
-.git {
-	width: 85px;
-	height: 100px;
-	margin: 20px;
-	background-color: #262626;
-	float: left;
-	color: #ffffff;
-}
-
-.git:hover {
-	background-color: #151515;
-}
-
-.tw {
-	width: 85px;
-	height: 100px;
-	margin: 20px;
-	background-color: #3785FB;
-	float: left;
-	color: #ffffff;
-}
-
-.tw:hover {
-	background-color: #2674EA;
+    /*  **********************
+        ***** for Mobile *****
+        ********************** */
+@media only screen and (max-width: 410px) {
+    body{
+        overflow-x: hidden;
+    }
+    .top div h2{
+    padding-right: 30vw;
+    padding-left: 5vw;
+    font-size: 2rem;
+    }
+    #zegar{ 
+    position: absolute;
+    right: 5%;
+    font-size: 1.5rem;
+    }
+	hr{
+    max-width: 90vw;
+    margin-top: -20px;
+    }
+    .square{
+        border: 1px solid #ffffff;
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+    }
+    .box{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+    .box1{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 50vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    }
+    .box1 div{
+        margin: 0 px;
+    }
+    .box2 h2{
+        font-size: 0.8rem;
+        text-align: justify;
+        padding: 5px;
+        padding-top: 20px;
+        width: 50vw;
+        height: 160px;
+        border: 2px solid #fff;
+        box-sizing: border-box;
+        line-height: 1.5rem;
+    }
+    #sq6{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30vh;
+        max-width: 50vw;
+        margin-left: 25vw;
+    }
+    /* #sq6 div{
+        max-width: 50px;
+        max-height: 50px;
+    } */
+    .end{
+        font-size: 1rem;
+        margin-top: 5vh;
+    }
 }
